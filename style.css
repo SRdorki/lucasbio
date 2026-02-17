@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Impact";
+  src: url("fontes/impact.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HomepagebaukastenBoldCustom";
+  src: url("./fontes/HomepagebaukastenBold-ZXvm.ttf") format("truetype");
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+.perfil img{
+border-radius: 50%;
+margin-top: 24px;
+width: 120px;
+box-shadow: blue;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons svg{
+ width: 30px;
+}
+
+.redes{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 12px;
+}
+
+.redes a{
+  background: #1E1E1E;
+  padding: 15px;
+  border-radius: 9px;
+  text-decoration: none;
+  color: white;
+  font-family: "HomepagebaukastenBoldCustom", sans-serif;
+}
+
+footer{
+  padding: 16px;
+}
+
+iframe{
+  width: 100%;
+}
